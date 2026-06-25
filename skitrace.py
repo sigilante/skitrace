@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-nocktrace -- a small-step Nock 4K rewriter that prints every reduction step,
+skitrace -- a small-step Nock 4K rewriter that prints every reduction step,
 with an SKI -> Nock {0,1,2} compiler front-end.
 
 Two trace phases:
@@ -245,8 +245,8 @@ if __name__=="__main__":
     import sys
     args = sys.argv[1:]
     if not args:
-        print("Usage: nocktrace.py <SKI-term> <subject>")
-        print("  e.g.: nocktrace.py S K K 42")
+        print("Usage: skitrace.py <SKI-term> <subject>")
+        print("  e.g.: skitrace.py S K K 42")
         sys.exit(1)
     try:
         subject = int(args[-1])
