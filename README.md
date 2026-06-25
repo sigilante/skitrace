@@ -9,7 +9,7 @@ The `S`, `K`, and `I` combinators are represented using the Nock ISA.  They requ
 Usage:
 
 ```sh
-$ python3 nocktrace.py I 42    
+$ python3 skitrace.py I 42    
 ========================================================================
 (1)  *[42 [[I]]]   -- produces the VALUE of I
 ========================================================================
